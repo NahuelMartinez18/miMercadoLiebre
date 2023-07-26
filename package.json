@@ -1,0 +1,15 @@
+{
+  "name": "mercado_liebre",
+  "version": "1.0.0",
+  "description": "Trabajo de Mercado Liebre de la clase 17",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Nahuel Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,368 @@
+.titulares {
+  font-size: 24px;
+  margin: 15px 0px;
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+}
+
+.precio {
+  font-size: 15px;
+  margin: auto;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.descuentos {
+  font-size: 10px;
+  color: #39b54a;
+  margin: auto;
+  display: inline-block;
+}
+
+.descripciones {
+  font-size: 16px;
+  color: #666;
+}
+
+.cuotasPhone {
+  text-align: center;
+  margin: 10px;
+}
+
+.cuotasDesktop {
+  display: none;
+}
+
+.logo {
+  width: 100%;
+}
+
+.aLogo {
+  width: 50%;
+}
+
+.hamburguerBtn {
+  display: flex;
+  color: white;
+  background-color: #1259c3;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+  width: 25px;
+  margin-left: auto;
+  height: 25px;
+  margin-right: auto;
+  border-radius: 15%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.iconoFooter {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #1259c3;
+}
+
+.copyrigth {
+  color: #666;
+  margin-top: 3em;
+}
+
+.cajaArticle {
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+  position: relative;
+}
+
+.img {
+  width: 90%;
+  height: 90%;
+}
+
+.divImg {
+  text-align: center;
+}
+
+.btn {
+  border: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+  background-color: white;
+  color: #666;
+  width: auto;
+}
+
+.divBtn {
+  display: inline;
+  margin-left: -5px;
+}
+
+.buscador {
+  border: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.productName {
+  color: #666;
+  font-size: 11px;
+  margin-top: 14px;
+}
+
+.btnEnvio {
+  display: flex;
+  font-size: 14px;
+  padding: 5px;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  color: #39b54a;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.busqueda {
+  display: flex;
+  width: 25em;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.divSection {
+  width: 90%;
+  margin: auto;
+}
+
+/*Estilos de register.html*/
+
+.divForm {
+  display: flex;
+  text-align: center;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.inputs {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputCategories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h4Categories {
+  text-align: center;
+}
+
+.options {
+  margin: 5px 0px;
+  background-color: white;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.labelDate {
+  font-weight: bold;
+  margin: 5px;
+}
+
+.inputDate {
+  border-radius: 6px;
+  border: 0px;
+  padding: 8px;
+  width: 15em;
+}
+
+.labelFile {
+  font-weight: bold;
+  margin: 5px;
+}
+
+.inputFile {
+  display: grid;
+  place-content: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.inputFile input {
+  width: 100%;
+}
+
+.normalInput {
+  border-radius: 6px;
+  border: 0px;
+  padding: 8px;
+  width: 70%;
+}
+
+.buttons {
+  background-color: #1259c3;
+  border: 0px;
+  padding: 9px;
+  border-radius: 6px;
+  color: white;
+}
+
+/*Estilos de register.html---*/
+
+header {
+  font-size: 12px;
+  background-color: #EAC926;
+  padding: 10px;
+}
+
+body {
+  background-color: #ebebeb;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  padding: 2em;
+}
+
+footer section p {
+  margin-top: 0px;
+}
+
+footer section h3 {
+  margin-bottom: 0px;
+}
+
+main {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+main section article {
+  margin: 10px;
+  background-color: white;
+  width: auto;
+  text-align: left;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 361px) {
+  .btnEnvio {
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+  }
+
+  main section {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  main section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 45%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 9px;
+    width: 25em;
+  }
+
+  .hamburguerBtn {
+    display: none;
+  }
+
+  .cuotasPhone {
+    display: none;
+  }
+
+  .cuotasDesktop {
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+  }
+
+  .aLogo {
+    width: 30%;
+    margin: 10px;
+  }
+
+  form {
+    width: 80%;
+  }
+}
+
+@media (min-width: 769px) {
+  main section article {
+    width: 22%;
+  }
+
+  .btnEnvio {
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+  }
+
+  nav ul {
+    font-size: 13px;
+  }
+
+  .cuotasDesktop {
+    font-size: 15px;
+  }
+}
